@@ -1,0 +1,52 @@
+footer{
+   .footer-links{
+     text-align: center;
+     padding: 150px 0;
+     h4{
+       margin-bottom: 20px;
+       span{
+         color: var(--theme-orange);
+       }
+     }
+     .social{
+       margin-bottom: 20px;
+        a{
+          margin: 0 10px;
+          padding: 5px;
+          border: 1px solid;
+          color: var(--theme-orange);
+          border-radius: 50%;
+          width: 36px;
+          display: inline-block;
+        }
+     }
+     .links{
+       margin-bottom: 20px;
+       a{
+         margin: 0 20px;
+       }
+
+     }
+     .additional-links{
+       a{
+         margin: 0 10px;
+       }
+
+     }
+   }
+  .footer-app{
+    background: var(--theme-orange);
+    padding-top: 20px;
+    h4{
+      color: #ffffff;
+      margin: 20px 0 30px;
+    }
+    .app-downloads{
+
+    }
+  }
+  .footer-last{
+    text-align: center;
+    padding: 15px 0;
+  }
+}
