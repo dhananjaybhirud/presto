@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-footer',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-
-  constructor() { }
+  onDetail;
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+    if (this.router.url === '/details' ){
+      this.onDetail = true
+    } else {
+      this.onDetail= false
+    }
   }
 
 }
