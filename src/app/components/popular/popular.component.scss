@@ -1,0 +1,43 @@
+.popular{
+  padding: 50px 0 100px;
+  background: url("./../../../assets/img/bg.png") no-repeat 100% 100%;
+  h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    span{
+      color: var(--theme-orange);
+    }
+  }
+  ::ng-deep .carousel-inner{
+    overflow: visible;
+    .carousel-item{
+      margin-right: 0;
+    }
+  }
+  ::ng-deep .carousel-indicators{
+    bottom: -60px;
+    li{
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #f29c40;
+    }
+  }
+  .card{
+    border-radius: 0.25rem;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    transition: all 0.4s linear;
+    .card-body{
+      padding: 0;
+      margin-top: 10px;
+    }
+    &:hover{
+      background: #ffffff;
+      box-shadow: 0 0 5px #999999;
+    }
+  }
+
+}
