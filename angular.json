@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+              "src/assets/font-awesome/css/font-awesome.min.css",
               "src/styles.scss"
             ],
             "scripts": []
